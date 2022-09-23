@@ -1,0 +1,12 @@
+.background {
+    /*background: url("../images/scrumSafari.png") no-repeat center;*/
+    background-size: cover;
+}
+
+.blocker {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
