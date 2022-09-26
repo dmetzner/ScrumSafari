@@ -1,12 +1,48 @@
-.background {
-    /*background: url("../images/scrumSafari.png") no-repeat center;*/
-    background-size: cover;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.blocker {
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f5f5;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    flex-direction: column;
+    margin: auto;
+}
+
+img {
+    width: auto;
+    height: 100%;
+}
+
+.background {
+    background-color: #f5f5f5;
+    /*background: url("../images/scrumSafari.png") no-repeat center;*/
+    /*background-size: cover;*/
+}
+
+.full-width {
+    width: 100%;
+}
+
+.full-height {
+    min-height: 100vh;
+}
+
+.block {
+    height: 500px;
+    width: 100%;
+}
+
+.menu-item {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    transition: box-shadow ease-in-out 0.125s;
+}
+
+.menu-item:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
