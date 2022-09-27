@@ -156,11 +156,17 @@ img {
 
 .youtube-video {
     width: 100%;
-    height: auto;
+    height: 200px;
 }
 
 @media screen and (min-width: 568px) {
     .youtube-video {
         height: 300px;
     }
+}
+
+.qr {
+    width: 200px;
+    height: 200px;
+    margin: auto;
 }
