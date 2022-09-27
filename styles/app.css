@@ -24,8 +24,18 @@ img {
     }
 }
 
-.background {
+.startpage.background,
+.background{
     background-color: #f5f5f5;
+}
+
+@media screen and (min-width: 568px) {
+    :not(.startpage).background {
+        background-image: url(../images/nicevibes_background.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
 }
 
 .full-width {
@@ -85,4 +95,15 @@ img {
 
 .menu-item:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (min-width: 568px) {
+    .container {
+        min-width: 30vw;
+        width: 100%;
+        max-width: 600px;
+        padding: 5rem;
+        background-color: rgba(255, 255, 255, 0.65);
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+    }
 }
