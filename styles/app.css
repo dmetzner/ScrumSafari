@@ -144,11 +144,12 @@ img {
 }
 
 .container {
+    border-bottom: 1.5rem solid var(--bs-orange);
     padding: 2rem .5rem
 }
 
-.container:not(:last-child) {
-    border-bottom: 1.5rem solid var(--bs-orange);
+.container:last-child {
+    border-bottom: none;
 }
 
 @media screen and (min-width: 568px) {
@@ -160,7 +161,7 @@ img {
         margin-bottom: 5rem;
         background-color: rgba(245, 245, 245, 0.8);
         box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
-        border: none;
+        border-bottom: none;
     }
 }
 
@@ -175,16 +176,21 @@ img {
     }
 }
 
-.qr {
+@media screen and (min-width: 568px) {
+    .qr {
+        width: 200px;
+        height: 200px;
+        margin: auto;
+    }
+}
+
+.hide-mobile {
     display: none;
 }
 
 @media screen and (min-width: 568px) {
-    .qr {
+    .hide-mobile {
         display: block;
-        width: 200px;
-        height: 200px;
-        margin: auto;
     }
 }
 
