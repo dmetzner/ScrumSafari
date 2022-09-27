@@ -175,9 +175,16 @@ img {
 }
 
 .qr {
-    width: 200px;
-    height: 200px;
-    margin: auto;
+    display: none;
+}
+
+@media screen and (min-width: 568px) {
+    .qr {
+        display: block;
+        width: 200px;
+        height: 200px;
+        margin: auto;
+    }
 }
 
 .img-kingcharles {
