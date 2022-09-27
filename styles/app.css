@@ -172,6 +172,13 @@ img {
 }
 
 .img-kingcharles {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+.img-smiley {
     width: auto;
     height: 200px;
 }
