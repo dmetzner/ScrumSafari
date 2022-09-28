@@ -13,15 +13,17 @@
             crossorigin="anonymous"></script>
 
 <!--     Import your Styles here -->
+    <link rel="stylesheet" href="../styles/settings.css">
     <link rel="stylesheet" href="../styles/app.css">
+    <link rel="stylesheet" href="../styles/graz.css">
 
     <!-- Import your Scripts here -->
     <script src="../scripts/app.js"></script>
-    <script src="../scripts/countdown.js"></script>
+    <script src="../scripts/quiz.js"></script>
 </head>
 
-<body class="main background d-flex justify-content-center align-items-center">
-<main class="block full-height full-width d-flex flex-column justify-content-center flex-wrap align-items-center text-center">
+<body class="main background d-flex justify-content-center align-items-center" onload="InitEventListeners()">
+<main class="block full-height full-width d-flex flex-column justify-content-center flex-wrap align-items-center gap-2 text-center">
     <div class="container">
         <h1 class="display-5 fw-bold">Scrum Safari Graz</h1>
         <div class="col-12 mx-auto p-2 d-flex flex-column">
@@ -65,7 +67,7 @@
         <h2 class="display-5 fw-bold">Ninas Rätsel des Tages</h2>
         <div class="col-12 mx-auto p-2">
             <p class="lead mb-4 fw-bold">Was ist orange und geht durch den Wald?</p>
-            <p id="solution" class="lead mb-4 fw-bold">Lösung</p>
+            <p id="solution" class="lead mb-4">Klick hier um die Lösung zusehen</p>
             <img src="../images/wald.jpg" alt="Wald" class="img-wald">
         </div>
     </div>
