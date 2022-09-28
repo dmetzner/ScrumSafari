@@ -19,6 +19,7 @@
 
     <!-- Import your Scripts here -->
     <script src="../scripts/app.js"></script>
+    <script src="../scripts/randomNumber.js"></script>
 </head>
 
 <body class="main background d-flex justify-content-center align-items-center">
@@ -34,9 +35,9 @@
     <div class="container">
         <h1 class="display-5 fw-bold">Hello Saaz</h1>
         <div class="col-12 mx-auto p-2 d-flex flex-column">
-            <p class="lead mb-4 hide-mobile"></p>
-            <img class="mb-4 img-fluid qr hide-mobile" src="../images/qrcode_dmetzner.github.io-Saaz.png" alt="QR Code für die Scrum Safari Saaz">
-            <p> class="btn btn-primary btn-lg">Glow!</p>
+            <p class="lead mb-4">The glowing Button</p>
+            <p id="randomNumberButton" class="btn btn-primary btn-lg btn-glow" onclick="setRandomNumber()">Show random Number</p>
+            <p id="randomNumber" class="lead mb-4"></p>
         </div>
     </div>
 </main>
