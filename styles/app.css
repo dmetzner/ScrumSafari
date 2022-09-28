@@ -212,3 +212,7 @@ img {
     width: auto;
     height: 200px;
 }
+
+#solution{
+    cursor: pointer;
+}
