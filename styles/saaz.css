@@ -42,9 +42,9 @@
 }
 
 .img-elephant {
-    height: 500px;
+    height: 350px;
     object-fit: cover;
-    object-position: 100% 80%;
+    object-position: center;
 }
 
 .container-rounded {
