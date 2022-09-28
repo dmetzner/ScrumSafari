@@ -46,3 +46,19 @@
     object-fit: cover;
     object-position: 100% 80%;
 }
+
+.container-rounded {
+    border-radius: 20px;
+    height: 200px;
+}
+
+.container-background-tiger {
+    background-image: url(../images/tiger.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.font-white {
+    color: var(--bs-white);
+}
