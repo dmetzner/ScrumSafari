@@ -213,6 +213,10 @@ img {
     height: 200px;
 }
 
+#solution.fw-bold {
+    cursor: auto;
+}
+
 #solution{
     cursor: pointer;
 }
