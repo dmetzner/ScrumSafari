@@ -48,8 +48,15 @@
 }
 
 .container-rounded {
-    border-radius: 20px;
     height: 200px;
+    margin-top: -0.5rem;
+}
+
+@media screen and (min-width: 568px) {
+    .container-rounded {
+        border-radius: 20px;
+        height: 200px;
+    }
 }
 
 .container-background-tiger {
